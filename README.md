@@ -114,6 +114,7 @@ ai-legislation-data-foundation/
 ├── config.py                         \# Configuration settings (DB credentials, paths)  
 ├── requirements.txt                  \# Python dependencies  
 └── README.md                         \# This file
+|__ LICENSE                           \# License File
 
 ## **🤝 Contributing**
 
