@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+.ipynb_checkpoints/
+
+# Data
+# Ignore generated raw data files to keep the repository lean.
+# Users will generate these using the provided scripts or provide their own.
+data/raw/clients_tracking_history.csv
+data/raw/legislation/*.txt
+data/processed/*
+data/data_generator
+
+# Database
+*.sqlite3 # For local SQLite databases, if used
+.pgpass # PostgreSQL password file, if used
+
+# Configuration
+# Ignore environment variables file which might contain sensitive credentials
+.env
+.flaskenv
+
+# IDEs and Editors
+.idea/                  # JetBrains IDEs (PyCharm, IntelliJ, etc.)
+.vscode/                # VS Code settings (if not shared)
+*.sublime-project
+*.sublime-workspace
+.DS_Store               # macOS system files
+Thumbs.db               # Windows thumbnail cache
+ehthumbs.db
+.directory
+
+# Logs
+*.log
+logs/
+
+# Jupyter Notebook specific (if you use them for development/exploration)
+.ipynb_checkpoints
